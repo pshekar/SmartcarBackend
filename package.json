@@ -13,6 +13,7 @@
     "body-parser": "^1.18.3",
     "dat-gui": "latest",
     "express": "~4.0.0",
+    "growl": "^1.10.5",
     "mongoose": "^5.2.4",
     "path": "latest",
     "q": "latest",

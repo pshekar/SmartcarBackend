@@ -1,0 +1,28 @@
+{
+  "name": "SmartcarBackend",
+  "version": "0.0.1",
+  "description": "Backend Coding Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./testing/vehicles.js --timeout 10000"
+  },
+  "dependencies": {
+    "angular": "latest",
+    "angular-ui-router": "~0.2.11",
+    "body-parser": "^1.18.3",
+    "dat-gui": "latest",
+    "express": "~4.0.0",
+    "mongoose": "^5.2.4",
+    "path": "latest",
+    "q": "latest",
+    "request": "^2.87.0",
+    "sequelize": "latest",
+    "tedious": "latest"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3"
+  }
+}
